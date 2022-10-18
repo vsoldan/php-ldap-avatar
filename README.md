@@ -2,8 +2,10 @@
 Script to return user photo from a Microsoft AD domain (thumbnailPhoto variable) based on provided e-mail GET variable
 
 ## Table of Contents
-1. [Installation](#installation)
-2. [Embed](#embed)
+- [PHP LDAP Avatar](#php-ldap-avatar)
+  - [Table of Contents](#table-of-contents)
+    - [Installation](#installation)
+    - [Embed](#embed)
 
 ### Installation
 1. Upload the content on a web server keeping the same structure
@@ -14,10 +16,11 @@ Script to return user photo from a Microsoft AD domain (thumbnailPhoto variable)
 **[⬆ back to top](#table-of-contents)**
 
 ### Embed
-1. You can embed the **avatar.php** in your projects by inserting 
+1. You can embed the **avatar.php** in your projects by inserting
+    
    ```html
    <img src="https://domain.ro/avatar.php?email=test@domain.ro" alt="Avatar" width="100" height="100">
-   ``` 
+   ```
    in your code
 
 **[⬆ back to top](#table-of-contents)**
